@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npx create-next-app@latest claudio-ribeiro-imoveis --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npm install *)",
+      "Bash(mkdir \"c:\\\\Users\\\\GABRIEL\\\\Desktop\\\\PROJETINHO\\\\PROJETO PARA CORRETOR\\\\claudio-ribeiro-imoveis\\\\app\\\\imoveis\" 2>&1; mkdir \"c:\\\\Users\\\\GABRIEL\\\\Desktop\\\\PROJETINHO\\\\PROJETO PARA CORRETOR\\\\claudio-ribeiro-imoveis\\\\app\\\\imoveis\\\\[slug]\" 2>&1; mkdir \"c:\\\\Users\\\\GABRIEL\\\\Desktop\\\\PROJETINHO\\\\PROJETO PARA CORRETOR\\\\claudio-ribeiro-imoveis\\\\app\\\\sobre\" 2>&1; mkdir \"c:\\\\Users\\\\GABRIEL\\\\Desktop\\\\PROJETINHO\\\\PROJETO PARA CORRETOR\\\\claudio-ribeiro-imoveis\\\\app\\\\contato\" 2>&1; mkdir \"c:\\\\Users\\\\GABRIEL\\\\Desktop\\\\PROJETINHO\\\\PROJETO PARA CORRETOR\\\\claudio-ribeiro-imoveis\\\\app\\\\investimentos\" 2>&1; mkdir \"c:\\\\Users\\\\GABRIEL\\\\Desktop\\\\PROJETINHO\\\\PROJETO PARA CORRETOR\\\\claudio-ribeiro-imoveis\\\\app\\\\blog\" 2>&1)",
+      "Bash(npm run *)",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); console.log\\(Object.keys\\(l\\).filter\\(k => k.toLowerCase\\(\\).includes\\('share'\\) || k.toLowerCase\\(\\).includes\\('external'\\) || k.toLowerCase\\(\\).includes\\('link'\\) || k.toLowerCase\\(\\).includes\\('play'\\)\\).slice\\(0, 20\\)\\)\")",
+      "Bash(Start-Process npm *)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\GABRIEL\\Desktop\\PROJETINHO\\PROJETO PARA CORRETOR\\claudio-ribeiro-imoveis\\app\\imoveis",
+      "c:\\Users\\GABRIEL\\.claude\\projects\\c--Users-GABRIEL-Desktop-PROJETINHO-PROJETO-PARA-CORRETOR\\memory"
+    ]
+  }
+}
