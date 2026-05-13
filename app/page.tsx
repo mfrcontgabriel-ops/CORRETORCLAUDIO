@@ -19,7 +19,7 @@ export default function HomePage() {
         {/* Background */}
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=90"
+            src="/itajai.jpg"
             alt="Praia Brava Itajaí"
             fill
             className="object-cover"
