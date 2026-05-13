@@ -1,3 +1,5 @@
+import LeadForm from "@/components/LeadForm";
+
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight, ChevronDown, Award, TrendingUp, Shield, Star } from "lucide-react"
@@ -419,7 +421,17 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <section className="section-padding border-t border-white/5">
+  <div className="container-premium">
+    <div className="max-w-2xl">
+      <h2 className="text-3xl text-white mb-6">
+        Fale com um especialista
+      </h2>
 
+      <LeadForm />
+    </div>
+  </div>
+</section>
       {/* FINAL CTA */}
       <section className="relative py-32 overflow-hidden">
         <Image
